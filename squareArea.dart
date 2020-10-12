@@ -1,7 +1,9 @@
 import 'dart:math';
-void main() {
-  int sideMeasure = 12;
-  int area = pow(sideMeasure, 2);
 
-  print('the area of the square is ${area}');
+void main() {
+  List sideMeasures = [1, 2, 3, 4, 5];
+
+  for (final integer in sideMeasures) {
+    print("${integer} squared is ${pow(integer, 2)}");
+  }
 }
